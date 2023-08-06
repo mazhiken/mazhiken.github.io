@@ -1,4 +1,17 @@
+@font-face {
+   font-family: 'Aktiv Grotesk Corp';
+   src: url('AktivGroteskCorp-Light.eot');
+   src: local('AktivGroteskCorp-Light'),
+       url('AktivGroteskCorp-Light.eot?#iefix') format('embedded-opentype'),
+       url('AktivGroteskCorp-Light.woff2') format('woff2'),
+       url('AktivGroteskCorp-Light.woff') format('woff'),
+       url('AktivGroteskCorp-Light.ttf') format('truetype');
+   font-weight: 300;
+   font-style: normal;
+}
+
 body {
    background-color: #141416;
    color: #FFFFFF;
+   font-family: 'AktivGroteskCorp-Light.woff2';
 }
