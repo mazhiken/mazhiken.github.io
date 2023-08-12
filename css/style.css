@@ -1,13 +1,142 @@
 @font-face {
-   font-family: 'Aktiv Grotesk Corp';
-   src: url('/css/fonts/AktivGroteskCorp-Light.woff2') format('woff2');
+   font-family: 'Suisse';
+   src: url('/css/fonts/subset-SuisseIntl-Light.woff2') format('woff2');
    font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Suisse';
+   src: url('/css/fonts/subset-SuisseIntl-Thin.woff2') format('woff2');
+   font-weight: 100;
    font-style: normal;
 }
 
 body {
    background-color: #141416;
    color: #FFFFFF;
-   font-family: 'Aktiv Grotesk Corp', sans-serif;
+   font-family: 'Suisse', sans-serif;
+   font-size: 16px;
    font-weight: 300;
+   line-height: 19px;
+   margin: 0px 70px 0px 70px;
 }
+
+/* navigation */
+
+.primary-header a, .project-list a {
+   text-decoration: none;
+}
+
+.primary-header {
+   height: 100vh;
+   margin-bottom: 140px;
+}
+
+.nav-wrapper {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3.25em;
+}
+
+.main-title {
+   position: absolute;
+   bottom: 4.5em;
+}
+
+/* header */
+
+/* links */
+
+a {
+   color: #fff;
+   text-underline-offset: 6px;
+   text-decoration-thickness: 0.5px;
+}
+
+/* headings */
+
+h1, h2 {
+   font-weight: 100;
+}
+
+h1 {
+   font-size: 4.75rem;
+   line-height: 108%; /* 5.13rem */
+   letter-spacing: -0.095rem;
+   margin-block-start: 0em;
+   margin-block-end: 0em;
+}
+
+h2 {
+   font-size: 3.5rem;
+   line-height: 119%; /* 4.76rem */
+   letter-spacing: -0.08rem;
+   text-align: center;
+}
+
+@media (max-width: 768px) {
+   h1 {
+      font-size: 13vw;
+   }
+
+   h2 {
+      font-size: 10vw;
+   }
+
+   body {
+      font-size: 0.875rem;
+      margin: 0px 16px 0px 16px;
+   }
+
+   .nav-wrapper {
+      margin-top: 20px;
+   }
+}
+
+@media (min-width: 1440px) {
+   h1 {
+      font-size: 9.48vh;
+   }
+
+   h2 {
+      font-size: 7.42vh;
+   }
+
+   body {
+      font-size: 1.31rem;
+   }
+}
+
+.section-title {
+   text-align: center;
+   line-height: normal;
+   text-transform: uppercase;
+}
+
+.parantheses-1 {
+   padding-right: 0.6rem;
+}
+
+.parantheses-2 {
+   padding-left: 0.6rem;
+}
+
+/* text */
+
+.company-desc {
+   text-align: center;
+}
+
+/* footer */
+.row {
+   display: flex;
+ }
+ 
+ .column-1, .column-2 {
+   width: 20%;
+ }
+
+ .column-2 {
+   text-align: right;
+ }

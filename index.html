@@ -11,19 +11,22 @@
 <body>
 
    <header class="primary-header">
-     <div class="container">
-       <a href="#" class="logo">AM</a>
-       <nav class="primary-nav">
-         <a href="#contacts">Контакты</a>
-       </nav>
-     </div>
+      <div class="nav-wrapper">
+            <a href="#">AM</a>
+            <nav class="primary-nav">
+               <a href="#contacts">Контакты</a>
+            </nav>
+      </div>
+      <div class="main-title-container">
+         <div class="main-title">
+            <h1>Ainur Mazhiken</h1>
+            <h1><span id="job-title-animation"></span></h1>
+         </div>
+      </div>
    </header>
 
    <header class="secondary-header">
-       <div class="main-title">
-         <h1>Ainur Mazhiken</h1>
-         <h1><span id="job-title-animation"></span></h1>
-       </div>
+     
    </header>
 
    <main>
@@ -36,12 +39,13 @@
 
          <div class="project-list">
             <a href="/tech_house"><img class="project-preview" src="" alt="Tech House"></a>
-            <div>
-               <a href="/tech_house" class="project-title">Tech House</a>
+            <div class="project-title">
+               <a href="/tech_house">Tech House</a>
             </div>
+            
             <a href="/bright"><img class="project-preview" src="" alt="Bright"></a>
             <div class="project-title">
-               <a href="/bright" class="project-title">Bright</a>
+               <a href="/bright">Bright</a>
             </div>
          </div>
       </section>
@@ -53,7 +57,7 @@
             <span class="parantheses-2">)</span>
          </div>
          <h2>МК Корпорация</h2>
-         Владелец сети кофеен
+         <p class="company-desc">Владелец сети кофеен</p>
          <div class="gallery">
             <img class="mk-1" src="">
             <img class="mk-2" src="">
@@ -62,7 +66,7 @@
          </div>
          
          <h2>Balbobek</h2>
-         Гипермаркет детских игрушек
+         <p class="company-desc">Гипермаркет детских игрушек</p>
          <div class="gallery">
             <img class="bb-1" src="">
             <img class="bb-2" src="">
@@ -72,12 +76,19 @@
       </section>
    </main>
 
-   <footer class="contacts">
-      <div class="container">
-         ainur.mazhiken@mail.ru
-         <p>ainurmazhiken@gmail.com</p>
-         <p><a href="hh.kz">Резюме на hh.kz</a></p>
+   <section class="contacts">
+      <div class="row">
+         <div class="column-1">
+            ainur.mazhiken@mail.ru
+            <p>ainurmazhiken@gmail.com</p>
+         </div>
+         <div class="column-2">
+            <a href="hh.kz">Резюме на hh.kz</a>
+         </div>
       </div>
+   </section>
+
+   <footer>
       <div class="container">
          <span class="copyright">© 2023</span>
          <button class="back-to-top">Наверх<img src=""></button>
