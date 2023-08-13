@@ -1,13 +1,13 @@
 @font-face {
    font-family: 'Suisse';
-   src: url('/css/fonts/subset-SuisseIntl-Light.woff2') format('woff2');
+   src: url('../css/fonts/subset-SuisseIntl-Light.woff2') format('woff2');
    font-weight: 300;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Suisse';
-   src: url('/css/fonts/subset-SuisseIntl-Thin.woff2') format('woff2');
+   src: url('../css/fonts/subset-SuisseIntl-Thin.woff2') format('woff2');
    font-weight: 100;
    font-style: normal;
 }
@@ -15,7 +15,7 @@
 body {
    background-color: #141416;
    color: #FFFFFF;
-   font-family: 'Suisse', sans-serif;
+   font-family: 'Suisse';
    font-size: 16px;
    font-weight: 300;
    line-height: 19px;
@@ -41,7 +41,7 @@ body {
 
 .main-title-container {
    position: absolute;
-   bottom: 9em;
+   bottom: 8em;
 }
 
 .job-title-animation{
